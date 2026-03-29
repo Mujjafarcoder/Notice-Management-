@@ -81,5 +81,5 @@ GET /notice/notices → get all notices
 
 My Approach
 
-First I created backend APIs and tested them.
-Then I connected frontend using fetch and displayed data.
+First I created backend APIs and tested them on postMan app.
+Then I connected frontend using fetch and displayed data and added the deta.
