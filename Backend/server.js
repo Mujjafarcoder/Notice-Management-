@@ -19,9 +19,9 @@ app.post("/notice/add", (req, res) => {
     db.query(sql, [title, description, created_at], function (error, result) {
 
         if (!error) {
-            res.send("Notice added successfully");
+            res.json({ message: "Notice added successfully" });
         } else {
-            res.send(error);
+            res.json({ message: "Error adding notice" });
         }
 
     });
@@ -33,9 +33,9 @@ app.get("/notice/show", (req, res) => {
     db.query("SELECT * FROM notices", function (error, result) {
 
         if (!error) {
-            res.send(result);
+            res.json(result);
         } else {
-            res.send(error);
+            res.json({ message: "Error fetching notices" });
         }
 
     });
