@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Notice Management System</title>
+</head>
+
+<body >
+    <div class="container mt-5 light-pink-bg p-4 rounded ">
+        <h1 class="text-center mb-4 fw-bold ">Notice Management System</h1>
+        <div class="row">
+            <div class="col-12 col-xl-5">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3">Add Notice</h4>
+
+                        <input type="text" id="title" class="form-control mb-3" placeholder="Enter title">
+
+                        <textarea id="description" class="form-control mb-3" rows="3"
+                            placeholder="Enter description"></textarea>
+
+                        <button class="btn btn-primary w-100 fw-bold" id="added">Add Notice</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-xl-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3 fw-bold">All Notices</h4>
+
+                        <div id="notice-list"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
