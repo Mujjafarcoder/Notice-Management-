@@ -74,8 +74,8 @@ CREATE TABLE notices (
 
 APIs
 
-POST /notice/create → add notice
-GET /notice/notices → get all notices
+POST /notice/add → add notice
+GET /notice/show → get all notices
 
 =================
 
