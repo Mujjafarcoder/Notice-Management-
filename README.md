@@ -83,3 +83,4 @@ My Approach
 
 First I created backend APIs and tested them on postMan app.
 Then I connected frontend using fetch and displayed data and added the deta.
+Simple Notice Management System using Node.js and MySQL
